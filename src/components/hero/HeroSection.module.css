@@ -1,0 +1,85 @@
+.heroSection {
+  min-height: 600px;
+  background: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.heroContent {
+  z-index: 2;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.heroTitle {
+  font-size: 56px;
+  font-weight: 700;
+  /* letter-spacing: -0.005em; */
+  /* margin-bottom: 6px; */
+  /* line-height: 1.05; */
+}
+
+.heroSubtitle1, .heroSubtitle2 {
+  font-size: 26px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  line-height: 1; /* ← Very tight */
+}
+
+.heroSubtitle1 {
+  margin-bottom: 10px; 
+  margin-top: 8px;
+}
+
+.heroSubtitle2 {
+  margin-bottom: 18px;
+}
+
+.heroLinks {
+  display: flex;
+  gap: 35px;
+  justify-content: center;
+  font-size: 21px;
+}
+
+.heroLink {
+  color: #2997ff;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.heroLink:hover {
+  text-decoration: underline;
+}
+
+.heroImageContainer {
+  position: absolute;
+  bottom: 0;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.heroImage {
+  height: 200px;
+}
+
+/* Responsive */
+@media (max-width: 734px) {
+  .heroTitle {
+    font-size: 40px;
+  }
+
+  .heroSubtitle {
+    font-size: 21px;
+  }
+
+  .heroLinks {
+    flex-direction: column;
+    gap: 15px;
+  }
+}

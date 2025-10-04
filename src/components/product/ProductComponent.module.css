@@ -1,0 +1,106 @@
+.productSection {
+  height: 500px;
+  width: 100%;
+  background: #000;
+  color: #fff;
+  position: relative; /* ← Creates positioning context */
+  overflow: hidden;
+}
+
+.productContent {
+  position: relative; /* ← Important for z-index */
+  z-index: 3; /* ← Higher than image */
+  padding-top: 40px;
+  text-align: center;
+}
+
+.productTitle {
+  font-size: 40px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+
+.productSubtitle1,
+.productSubtitle2 {
+  font-size: 25px;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+.productSubtitle1 {
+  margin-bottom: 10px;
+  margin-top: 8px;
+}
+
+.productSubtitle2 {
+  margin-bottom: 18px;
+}
+
+.productLinks {
+  display: flex;
+  gap: 35px;
+  justify-content: center;
+  font-size: 21px;
+}
+
+.productLink {
+  color: #2997ff;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.productLink:hover {
+  text-decoration: underline;
+}
+
+/* Image fills entire container */
+.productImageContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1; /* ← Lower than text */
+}
+
+.productImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* ← Fills entire container */
+}
+
+/* Optional: Add overlay for better text readability */
+.productSection::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2; /* ← Between image and text */
+}
+h1,
+p {
+  color: black;
+}
+
+/* Responsive */
+@media (max-width: 734px) {
+  .productTitle {
+    font-size: 32px;
+  }
+
+  .productSubtitle1,
+  .productSubtitle2 {
+    font-size: 20px;
+  }
+
+  .productLinks {
+    flex-direction: column;
+    gap: 15px;
+    font-size: 18px;
+  }
+}

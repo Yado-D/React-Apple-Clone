@@ -1,0 +1,354 @@
+{
+    "store":[
+                {
+                  "title": "Shop",
+                  "items": [
+                    {
+                      "title": "Shop the latest",
+                      "goto": "./"
+                    },
+                    {
+                      "title": "Mac",
+                      "goto": "./"
+                    },
+                    {
+                      "title": "Iphone",
+                      "goto": "./"
+                    },
+                    {
+                      "title": "Ipad",
+                      "goto": "./"
+                    },
+                    {
+                      "title": "Apple watch",
+                      "goto": "./"
+                    },
+                    {
+                      "title": "Apple Vision Pro",
+                      "goto": "./"
+                    },
+                    {
+                      "title": "AirPods",
+                      "goto": "./"
+                    },
+                    {
+                      "title": "Accessorys",
+                      "goto": "./"
+                    }
+                  ]
+                },
+                {
+                  "title": "Quick Links",
+                  "items": [
+                    {
+                      "title": "Find a Store",
+                      "goto": "./"
+                    },
+                    {
+                      "title": "Order Status",
+                      "goto": "./"
+                    },
+                    {
+                      "title": "Apple Trade In",
+                      "goto": "./"
+                    },
+                    {
+                      "title": "Financing",
+                      "goto": "./"
+                    },
+                    {
+                      "title": "Persosnal Setup",
+                      "goto": "./"
+                    }
+                  ]
+                },
+                {
+                  "title": "Shop Special Store",
+                  "items": [
+                    {
+                      "title": "Certified Refurbished",
+                      "goto": "./"
+                    },
+                    {
+                      "title": "Education",
+                      "goto": "./"
+                    },
+                    {
+                      "title": "Business",
+                      "goto": "./"
+                    },
+                    {
+                      "title": "Veterans and Military",
+                      "goto": "./"
+                    },
+                    {
+                      "title": "Government",
+                      "goto": "./"
+                    }
+                  ]
+                }
+    ],
+"mac":[
+                {
+                  "title": "Explore Mac",
+                  "items": [
+                    {
+                      "title": "Explore All Mac",
+                      "goto": "./"
+                    },
+                    {
+                      "title": "MacBook Air",
+                      "goto": "./"
+                    },
+                    {
+                      "title": "MacBook Pro",
+                      "goto": "./"
+                    },
+                    {
+                      "title": "iMac",
+                      "goto": "./"
+                    },
+                    {
+                      "title": "Mac mini",
+                      "goto": "./"
+                    },
+                    {
+                      "title": "Mac Studio",
+                      "goto": "./"
+                    },
+                    {
+                      "title": "Mac Pro",
+                      "goto": "./"
+                    },
+                    {
+                      "title": "Displays",
+                      "goto": "./"
+                    }
+                  ]
+                },
+                {
+                  "title": "Shop Mac",
+                  "items": [
+                    {
+                      "title": "Shop Mac",
+                      "goto": "./"
+                    },
+                    {
+                      "title": "Help Me Choose",
+                      "goto": "./"
+                    },
+                    {
+                      "title": "Mac Accessories",
+                      "goto": "./"
+                    },
+                    {
+                      "title": "Apple Trade In",
+                      "goto": "./"
+                    },
+                    {
+                      "title": "Financing",
+                      "goto": "./"
+                    }
+                  ]
+                },
+                {
+                  "title": "More From Mac",
+                  "items": [
+                    {
+                      "title": "Certified Refurbished",
+                      "goto": "./"
+                    },
+                    {
+                      "title": "Education",
+                      "goto": "./"
+                    },
+                    {
+                      "title": "Business",
+                      "goto": "./"
+                    },
+                    {
+                      "title": "Veterans and Military",
+                      "goto": "./"
+                    },
+                    {
+                      "title": "Government",
+                      "goto": "./"
+                    }
+                  ]
+                }
+    ],
+"iPad":[
+                {
+                  "title": "Explore iPad",
+                  "items": [
+                    {
+                      "title": "Explore All iPad",
+                      "goto": "./"
+                    },
+                    {
+                      "title": "iPad Pro",
+                      "goto": "./"
+                    },
+                    {
+                      "title": "iPad Air",
+                      "goto": "./"
+                    },
+                    {
+                      "title": "iPad",
+                      "goto": "./"
+                    },
+                    {
+                      "title": "iPad mini",
+                      "goto": "./"
+                    },
+                    {
+                      "title": "Apple Pencil",
+                      "goto": "./"
+                    },
+                    {
+                      "title": "Keyboards",
+                      "goto": "./"
+                    }
+                  ]
+                },
+                {
+                  "title": "Shop iPad",
+                  "items": [
+                    {
+                      "title": "Shop iPad",
+                      "goto": "./"
+                    },   
+                    {
+                      "title": "iPad Accessories",
+                      "goto": "./"
+                    },
+                    {
+                      "title": "Apple Trade In",
+                      "goto": "./"
+                    },
+                    {
+                      "title": "Financing",
+                      "goto": "./"
+                    }
+                  ]
+                },
+                {
+                  "title": "More From iPad",
+                  "items": [
+                    {
+                      "title": "iPad Support",
+                      "goto": "./"
+                    },
+                    {
+                      "title": "AppleCare",
+                      "goto": "./"
+                    },
+                    {
+                      "title": "iPadOS 26",
+                      "goto": "./"
+                    },
+                    {
+                      "title": "Apple Intelligence",
+                      "goto": "./"
+                    },
+                    {
+                      "title": "Apple by Apple",
+                      "goto": "./"
+                    }
+                  ]
+                }
+    ],   
+"iPhone":[
+                {
+                  "title": "Explore iPhone",
+                  "items": [
+                    {
+                      "title": "Explore All iPhone",
+                      "goto": "./"
+                    },
+                    {
+                      "title": "iPhone 17 Pro",
+                      "goto": "./"
+                    },
+                    {
+                      "title": "iPhone Air",
+                      "goto": "./"
+                    },
+                    {
+                      "title": "iPhone 17",
+                      "goto": "./"
+                    },
+                    {
+                      "title": "iPhone 16",
+                      "goto": "./"
+                    },
+                    {
+                      "title": "iPhone 16e",
+                      "goto": "./"
+                    }
+                  ]
+                },
+                {
+                  "title": "Shop iPhone",
+                  "items": [
+                    {
+                      "title": "Shop iPad",
+                      "goto": "./"
+                    },   
+                    {
+                      "title": "iPad Accessories",
+                      "goto": "./"
+                    },
+                    {
+                      "title": "Apple Trade In",
+                      "goto": "./"
+                    },
+                    {
+                      "title": "Financing",
+                      "goto": "./"
+                    }
+                  ]
+                },
+                {
+                  "title": "More From iPhone",
+                  "items": [
+                    {
+                      "title": "iPhone Support",
+                      "goto": "./"
+                    },
+                    {
+                      "title": "AppleCare",
+                      "goto": "./"
+                    },
+                    {
+                      "title": "iOSOS 26",
+                      "goto": "./"
+                    },
+                    {
+                      "title": "Apple Intelligence",
+                      "goto": "./"
+                    },
+                    {
+                      "title": "Apple by Apple",
+                      "goto": "./"
+                    },
+                    {
+                      "title": "iPhone Privacy",
+                      "goto": "./"
+                    },
+                    {
+                      "title": "iCloud+",
+                      "goto": "./"
+                    },
+                    {
+                      "title": "Wallet, Pay, Card",
+                      "goto": "./"
+                    },
+                    {
+                      "title": "Siri",
+                      "goto": "./"
+                    }
+                  ]
+                }
+    ]
+}
