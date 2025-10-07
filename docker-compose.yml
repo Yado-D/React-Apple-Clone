@@ -1,0 +1,11 @@
+services:
+  frontend:
+    build: ./
+    ports:
+      - 3000:3000
+    environment:
+      - DB_URL=https://api.example.com
+    volumes:
+      - .:/app
+    command: npm start
+    
